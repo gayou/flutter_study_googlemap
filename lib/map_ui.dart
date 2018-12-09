@@ -154,16 +154,6 @@ class MapUiBodyState extends State<MapUiBody> {
     var target = mapController.cameraPosition.target;
     var longitude = target.longitude;
     var latitude = target.latitude;
-//    var bounds = mapController.options.cameraTargetBounds.bounds;
-//    mapController.cameraPosition.
-//      var northeast = bounds.northeast.toString();
-//      var southwest = bounds.southwest.toString();
-//
-//      debugPrint("northeast:" + northeast);
-//      debugPrint("southwest:" + southwest);
-
-//    http.Response response = await http.get("http://geo.gayou.info/search/ajax?longitude=130.39872444047546&latitude=33.58841469192037&northeast=33.59230687482208,130.40093994512176&southwest=33.584522333419905,130.39650893582916");
-//    debugPrint(response.body);
 
     debugPrint("call getData()");
 
